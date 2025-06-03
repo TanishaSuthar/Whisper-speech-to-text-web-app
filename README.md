@@ -1,28 +1,29 @@
-# Whisper-speech-to-text-web-app
-This is a simple speech-to-text web application using [OpenAI Whisper](https://github.com/openai/whisper) and [Gradio](https://www.gradio.app/). It allows you to upload or record audio directly from your browser and transcribes the speech into text.
+🎙️ Whisper Speech-to-Text App
+This project is a simple and powerful speech-to-text web application powered by OpenAI's Whisper model and built using Gradio. It allows users to either record speech via a microphone or upload an audio file, transcribe the audio, and receive the recognized text output.
 
----
+🧠 Features
+🎤 Record audio via microphone or upload audio files.
+📄 Get accurate transcriptions using the Whisper model.
+🌐 User-friendly Gradio web interface.
+⚡ Real-time processing with live transcription.
 
-## 📦 Features
-
-- ✅ Speech recognition using Whisper (`base` model)
-- ✅ Upload `.wav`, `.mp3`, etc. or record audio from microphone
-- ✅ Clean, interactive web interface using Gradio
-- ✅ Real-time transcription
-
----
-
-# Install dependencies
-pip install openai-whisper gradio
-
-# Launching Interface
-* Running on local URL:  http://127.0.0.1:7861
-
----
-
-# Requirements
-├── app.py            # Main application file
-
-├── README.md         # Project description|
-
-├── requirements.txt  # Requirements
+📦 Installation
+1. Clone the Repository
+git clone
+cd whisper-speech-to-text
+2. Install Dependencies
+pip install -r requirements.txt
+or manually: pip install openai-whisper gradio soundfile numpy
+3. FFmpeg Installation Guide
+Whisper relies on ffmpeg for audio processing. Follow the steps below to install it:
+Download the latest static build from: https://www.gyan.dev/ffmpeg/builds/
+Extract to a folder (e.g., C:\ffmpeg).
+Add C:\ffmpeg\bin (bin folder's location that installed with ffmeg folder) to your system’s PATH environment variable.
+Confirm installation:
+ffmpeg -version
+ffprobe -version
+-whisper-speech-to-text/
+│
+├── app.py                # Main application file
+├── requirements.txt      # Python dependencies
+└── README.md             # Project documentation
