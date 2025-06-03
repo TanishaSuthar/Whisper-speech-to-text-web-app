@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+openai-whisper
+ffmpeg-python
+soundfile
+gtts
+playsound
+argostranslate
+python-multipart
