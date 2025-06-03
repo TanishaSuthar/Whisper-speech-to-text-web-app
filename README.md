@@ -15,6 +15,9 @@ This is a simple speech-to-text web application using [OpenAI Whisper](https://g
 # Install dependencies
 pip install openai-whisper gradio
 
+# Launching Interface
+* Running on local URL:  http://127.0.0.1:7861
+
 ---
 
 # Requirements
