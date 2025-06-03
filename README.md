@@ -2,10 +2,10 @@
 This project is a simple and powerful speech-to-text web application powered by OpenAI's Whisper model and built using Gradio. It allows users to either record speech via a microphone or upload an audio file, transcribe the audio, and receive the recognized text output.
 
 # Features
-🎤 Record audio via microphone or upload audio files.
-📄 Get accurate transcriptions using the Whisper model.
-🌐 User-friendly Gradio web interface.
-⚡ Real-time processing with live transcription.
+- Record audio via microphone or upload audio files.
+- Get accurate transcriptions using the Whisper model.
+- User-friendly Gradio web interface.
+- Real-time processing with live transcription.
 
 # Installation
 
