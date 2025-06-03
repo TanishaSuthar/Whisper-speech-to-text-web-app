@@ -26,10 +26,9 @@ This project is a simple and powerful speech-to-text web application powered by 
 ffmpeg -version
 ffprobe -version
 
-4. Structure
-| File / Folder      | Description                       |
-| ------------------ | --------------------------------- |
-| `app.py`           | Main application script           |
-| `requirements.txt` | List of Python dependencies       |
-| `README.md`        | Project documentation (this file) |
+4. Structure of the web app
+- app.py: 	Main Python script to run the Gradio interface and handle speech transcription using Whisper.
+- requirements.txt: Lists all Python dependencies required to run the application.
+- readme.md: 	Documentation containing app description, setup instructions, and usage guide.
+- .gradio/ (auto): Auto-generated folder used by Gradio to store logs and flagged inputs.
 
