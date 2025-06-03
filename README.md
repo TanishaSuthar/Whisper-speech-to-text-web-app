@@ -22,5 +22,7 @@ pip install openai-whisper gradio
 
 # Requirements
 ├── app.py            # Main application file
-├── README.md         # Project description
+
+├── README.md         # Project description|
+
 ├── requirements.txt  # Requirements
