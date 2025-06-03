@@ -26,8 +26,10 @@ This project is a simple and powerful speech-to-text web application powered by 
 ffmpeg -version
 ffprobe -version
 
--whisper-speech-to-text/
-│
-├── app.py                # Main application file
-├── requirements.txt      # Python dependencies
-└── README.md             # Project documentation
+4. Structure
+| File / Folder      | Description                       |
+| ------------------ | --------------------------------- |
+| `app.py`           | Main application script           |
+| `requirements.txt` | List of Python dependencies       |
+| `README.md`        | Project documentation (this file) |
+
